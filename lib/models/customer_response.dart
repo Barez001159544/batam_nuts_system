@@ -42,16 +42,18 @@ class CustomerResponse {
   }
 
   Map<String, dynamic> toJson() => {
-    'addedBy': addedBy,
-    'date': date,
-    'createdAt': createdAt,
-    'updatedAt': updatedAt,
-    'isActive': isActive,
-    'id': id,
-    'name': name,
-    'employee': employee,
-    'phoneNumber': phoneNumber,
-    'address': address,
+  'id': id,
+  'name': name,
+  'employee': employee,
+  'phoneNumber': phoneNumber,
+  'address': address,
+  'isActive': isActive,
+  'orders': orders,
+  'addedBy': addedBy,
+  'date': date,
+  'createdAt': createdAt,
+  'updatedAt': updatedAt,
+  'isActive': isActive,
   };
 
 

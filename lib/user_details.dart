@@ -93,7 +93,8 @@ PagnationParameter pagnationParameter = PagnationParameter(
     "${fromSelectedDate.toString().replaceAll(" ", "T")}",
     "${toSelectedDate.toString().replaceAll(" ", "T")}",
     false,
-    true);
+    true,
+);
 // final storage = new FlutterSecureStorage();
 // ReadToken() async{
 //   return await storage.read(key: _tokenKey);
